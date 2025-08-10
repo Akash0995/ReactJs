@@ -1,0 +1,8 @@
+.buttonst{
+    background-color: hsl(200, 100%, 50%);
+    color: white;border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
