@@ -1,9 +1,9 @@
-
-import Button from "./Button.jsx";
+//import UserGrating from "./UserGrsting.jsx";
+import List from "./List.jsx";
 function App() {
   return(
     <>
-      <Button/>
+    <List></List>
     </>
   )
   ;
