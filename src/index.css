@@ -1,18 +1,20 @@
-.welcome-message{
+.list-category{
     font-size: 2.5em;
-    background-color: hsl(120, 100%, 42%);
-    color: white;
-    padding: 10px;
+    font-weight: bold;
+    background-color: hsl(180, 100%, 50%);
+    color: hsl(0, 0%, 20%);
+    margin-bottom: 10px;
+    text-align: center;
+    border: 3px solid;
     border-radius: 5px;
     margin: 0;
 }
-.login-promt
+.list-item
 {
     font-size: 2.5em;
-    background-color: hsl(0, 100%, 42%);
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
+    list-style: none;
+    color: hsl(0, 0%, 25%);
+    text-align: center;
     margin: 0;
 
 }
