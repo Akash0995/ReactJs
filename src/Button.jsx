@@ -1,7 +1,13 @@
 
 function Button()
 {
-    let count = 0;
+    let count = 0;  
+    const handleClick = (e) => 
+        {
+            console.log(e);
+            e.target.textContent = "Outch! 👍" ;
+        }
+    /*
     const handleClick = (name) => 
     {
         if(count<3)
@@ -13,13 +19,13 @@ function Button()
         {
             console.log(`${name} stop clicking me!`);
         }
-    }
+    }*/
     //console.log("Akash");
     //const handleClick2 = (name) => console.log(`${name} stop clicking me`);
 
 
     return (
-    <button onClick={ () => handleClick("Bro")}>
+    <button onDoubleClick={ (e) => handleClick(e)}>
        Click Me 😁  
     </button>
 );
