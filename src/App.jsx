@@ -9,7 +9,7 @@ function App() {
 
   return(
     <>
-     <ColorPicker></ColorPicker>
+     <Counter></Counter>
     </>
   )  ;
   
