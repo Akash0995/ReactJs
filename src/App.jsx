@@ -7,11 +7,12 @@ import Counter from "./Counter.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 import ObComponent from "./ObComponent.jsx";
 import MyFoodComponent from "./MyFoodComponent.jsx";
+import MyCarComponent from "./MyCarComponent.jsx";
 function App() {
 
   return(
     <>
-     <MyFoodComponent></MyFoodComponent>
+     <MyCarComponent></MyCarComponent>
     </>
   )  ;
   
